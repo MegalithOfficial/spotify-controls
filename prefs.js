@@ -38,7 +38,6 @@ const PositionItem = GObject.registerClass(
             super._init(props);
         }
     }
-  },
 );
 
 /**
@@ -57,7 +56,6 @@ const ControlsPositionItem = GObject.registerClass(
             super._init(props);
         }
     }
-  },
 );
 
 /**
