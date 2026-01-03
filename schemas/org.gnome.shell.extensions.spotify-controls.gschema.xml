@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.spotify-controls" path="/org/gnome/shell/extensions/spotify-controls/">
+  <schema
+        id="org.gnome.shell.extensions.spotify-controls"
+        path="/org/gnome/shell/extensions/spotify-controls/"
+    >
     <key name="position" type="s">
       <default>'rightmost-left'</default>
       <summary>Position on the top bar</summary>
@@ -40,11 +43,18 @@
         Toggle the volume control feature using the scroll wheel over the song title in the top bar.
       </description>
     </key>
-    <key name="show-track-info" type="b">
+    <key name="show-artist" type="b">
       <default>true</default>
-      <summary>Show Artist/Track Info</summary>
+      <summary>Show Artist Name</summary>
       <description>
-        Toggle the visibility of the Artist and Track information in the top bar.
+        Toggle the visibility of the Artist name in the top bar.
+      </description>
+    </key>
+    <key name="show-title" type="b">
+      <default>true</default>
+      <summary>Show Track Title</summary>
+      <description>
+        Toggle the visibility of the Track title in the top bar.
       </description>
     </key>
     <key name="enable-middle-click" type="b">
@@ -53,7 +63,7 @@
       <description>
         Toggles whether the user can Play/Pause with a middle-click on the extension icon.
       </description>
-    </key>    
+    </key>
     <key name="minimize-on-second-click" type="b">
       <default>true</default>
       <summary>Minimize Spotify on second click</summary>
